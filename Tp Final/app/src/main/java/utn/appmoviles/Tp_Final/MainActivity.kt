@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity(){
                    composable(Routes.PantallaLogin.route){ PantallaLogin(navigationController)}
                    composable(Routes.PantallaPrincipal.route) {PantallaPrincipal(navigationController)}
                    composable(Routes.PantallaConfiguracion.route){PantallaConfiguracion(navigationController)}
-                   //composable(Routes.PantallaEntrenamientoSonido.route){PantallaEntrenamientoSonido(navigationController)}
+                   composable(Routes.PantallaEntrenamientoSonido.route){PantallaEntrenamientoSonido(navigationController)}
                    //composable(Routes.PantallaEnvioWhastsApp.route){PantallaEnvioWhastsApp(navigationController)}
 
                 }
